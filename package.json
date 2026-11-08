@@ -1,0 +1,13 @@
+{
+  "name": "dst-client-authority",
+  "private": true,
+  "version": "0.3.0",
+  "description": "DST 客户端权威移动模组：语法检查与校验逻辑测试",
+  "scripts": {
+    "test": "node tools/check_lua.js client_authority/modinfo.lua client_authority/modmain.lua && node tools/test_ca.js"
+  },
+  "devDependencies": {
+    "fengari": "^0.1.5",
+    "luaparse": "^0.3.1"
+  }
+}

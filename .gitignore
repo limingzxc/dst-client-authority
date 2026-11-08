@@ -1,0 +1,6 @@
+# 游戏源码参考，不入库
+_ref/scripts-2026/
+_ref/*.zip
+
+# 依赖
+node_modules/
